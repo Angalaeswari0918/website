@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <style>
+        .collar{
+            text-decoration:none;
+            list-style-type: none;
+            background-color:yellowgreen;
+            position: fixed;
+        
+        }
+        .tie{
+            text-decoration:none;
+            padding:5px;
+            color:orangered;
+            float:right;
+        }
+        .tie a:hover{
+            background-color: indigo;
+        }
+        .pen{
+            color:brown;
+        } 
+    </style>
+     <script>
+      let day;
+switch (new Date().getDay()) {
+    case 0:
+      day = "Sunday";
+      break;
+    case 1:
+      day = "Monday";
+      break;
+    case 2:
+       day = "Tuesday";
+      break;
+    case 3:
+      day = "Wednesday";
+      break;
+    case 4:
+      day = "Thursday";
+      break;
+    case 5:
+      day = "Friday";
+      break;
+    case 6:
+      day = "Saturday";
+  }
+    </script>
+</head>
+<body background="ocean.jpg" style="background-repeat: no-repeat; width: 99%; height: 3000px;" >
+    
+    <nav>
+        <ul class="collar">
+            <a href=""><li class="tie"><b><img src="contact.png" width="16px" height="16px"/>CONTACT US</b></li></a>
+            <a href=""><li class="tie"><b><img src="about.png" width="16px" height="16px"/>ABOUT</b></li></a>
+            <a href=""><li class="tie"><b><img src="events.png" width="16px" height="16px"/>EVENTS</b></li></a>
+            <a href=""><li class="tie"><b><img src="menu.jpg" width="16px" height="16px"/>MENU</b></li></a>
+           <a href=""><li class="tie"><b><img src="home.jpg" width="16px" height="16px"/>HOME</b></li></a>
+        </ul>
+    </nav>
+    <marquee scrolldelay="50"style="color:purple;"><h1><b>TIME TO TRAVEL</b></h1></marquee>
+    <marquee direction="right" behavior="scroll" scrollamount="20"style="color: peru;"><h3>&#9774 &#128516 <i>ARE YOU READY</i>&#128516 &#9774</h3></marquee>
+    
+    <p class="pen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus modi, ab praesentium nulla nostrum quod possimus suscipit ipsam provifgbnfgn dent vol uptatibf  ggnfnfgnus eos porro commodi cup  iditate ea amet aspernatur accusamus maiodgbfgnfg f ffnfnfnres.</p>
+    <p id="demo"></p>
+</body>
+
+</html>
